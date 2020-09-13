@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    padding: 0;
+   
+}
+table,h1{
+    width: 50%;
+}
+
+h1{
+    background-color: rgb(212, 5, 167);
+    
+    padding: 5px;
+    
+    
+}
+
+td{
+    width: 5vw;
+    border: 1px solid black;
+    text-align: center;
+    
+}
+.noborder{
+    border: none;
+}
+.color_1{
+    background-color: rgb(170, 77, 77);
+}
+.color_2{
+    background-color: rgb(192, 134, 27);
+}
+.color_3{
+    background-color: rgba(40, 40, 179, 0.746);
+}
+.color_4{
+    background-color: rgb(73, 36, 107);
+    
+}
+.color_5{
+    background-color: greenyellow;
+}
+.color_6{
+    background-color: rgb(14, 167, 121);
+}
+.color_7{
+    background-color: indigo;
+}
+.color_8{
+    background-color: lightcoral;
+}
+.color_9{
+    background-color: rgb(112, 54, 54);
+}

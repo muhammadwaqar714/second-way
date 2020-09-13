@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <style>
+        .main{
+            
+       
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-image: url("back2.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            
+        }
+        fieldset{
+            border-radius: 20px;
+            background-color: rgba(199, 187, 14, 0.877);
+            
+            font-size: 20px;
+            width: 40%;
+           
+            border: 2px solid red;
+            margin: 10px auto;
+        }
+        h1{
+            text-align: center;
+            color: brown;
+            text-shadow: 3px 4px 4px grey;
+            font-size: 50px;
+        }
+        button{
+           padding:10px;
+            background-color: rgb(255, 0, 242);
+            color: #fff;
+            border-radius: 20px;
+            font-size: 25px;
+          
+        }
+    </style>
+</head>
+<body>
+    <div class="goBack">
+        <a href="../../index.html" > <img src="go back.png" width="50px" style="position: absolute; top: 10px; left: 20px;" >
+        </a>
+    </div>
+    
+    <h1 > Math Quiz</h1>
+
+    <div class="main">
+<fieldset>
+<h2>3+10-2=?</h2>
+<input type="radio" name="math1" id="ans1">20 <br>
+<input type="radio" name="math1" id="ans2">11 <br>
+<input type="radio" name="math1" id="ans3">13 <br>
+<input type="radio" name="math1" id="ans4">-11 <br>
+
+</fieldset>
+<fieldset>
+    <h2>20+10-2+6=?</h2>
+    <input type="radio" name="math2" id="ans1">-34 <br>
+    <input type="radio" name="math2" id="ans2">11 <br>
+    <input type="radio" name="math2" id="q2ans3">34 <br>
+    <input type="radio" name="math2" id="ans4">30 <br>
+    
+    </fieldset>
+    <fieldset>
+        <h2>-4*5</h2>
+        <input type="radio" name="math3" id="q3ans1">-20 <br>
+        <input type="radio" name="math3" id="ans2">+20 <br>
+        <input type="radio" name="math3" id="ans3">1 <br>
+        <input type="radio" name="math3" id="ans4">9 <br>
+        
+        </fieldset>    
+        <fieldset>
+            <h2>20-4*5+1</h2>
+            <input type="radio" name="math4" id="ans1">-20 <br>
+            <input type="radio" name="math4" id="ans2">+20 <br>
+            <input type="radio" name="math4" id="q4ans3">1 <br>
+            <input type="radio" name="math4" id="ans4">9 <br>
+            
+            </fieldset>    
+              
+    <center><button onclick="myresult()">Submitt</button></center>
+
+    </div>
+
+
+
+
+<script src="app.js"></script>
+
+
+</body>
+
+</html>

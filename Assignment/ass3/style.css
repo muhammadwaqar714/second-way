@@ -1,0 +1,11 @@
+table{
+    border: 3px inset red;
+    border-collapse: collapse;
+   
+   
+    font-size: 20px;
+}
+
+tr,td{
+    border: 2px outset blueviolet;
+}

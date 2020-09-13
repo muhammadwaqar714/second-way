@@ -1,0 +1,29 @@
+.main{
+    border: 2px inset red;
+    width: 170px;
+    margin:  0 auto;
+    border-radius: 5px;
+    padding-left:2px;
+}
+.result{
+    background-color: royalblue;
+}
+.C{
+    width: 100%;
+    background-color: salmon;
+    margin-top: 10px;
+}
+.Btn{
+    width: 36px ;
+    margin: 1px;
+    background-color: yellowgreen;
+    border-radius: 10px;
+    border-color: red;
+
+   
+    
+}
+.half{
+    width: 80px;
+    background-color: teal;
+}

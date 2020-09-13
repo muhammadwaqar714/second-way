@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo App</title>
+    <style>
+        body{
+            background-color: burlywood;
+            text-align: center;
+        }
+        .btn{
+            background-color: gold;
+        }
+    </style>
+</head>
+<body>
+    <div class="goBack">
+        <a href="../../index.html" > <img src="go back.png" width="50px" style="position: absolute; top: 10px; left: 20px;" >
+        </a>
+    </div>
+    
+    <h1 style="text-align: center;">My Todo App</h1>
+    <div>
+        <input type="text" id="todo">
+        <button onclick="addItem()">Add item</button>
+        <button onclick="deleAll()">Delete ALL</button>
+    </div>
+
+    <div>
+        <ul id="list">
+
+        </ul>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
